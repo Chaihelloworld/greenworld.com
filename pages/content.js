@@ -40,9 +40,9 @@ export default function Feature() {
                     data-aos-easing="ease-in-out">
 
                     <div className={styles['box-text-feature']}>
-                        <h1 style={{ color: '#red' }}>
+                        <h1>
                             โครงการสนับสนุนกิจกรรมลดก๊าซ </h1>
-                        <h1 style={{ color: '#red' }}> อาหารฮาลาล ลดโลกร้อน
+                        <h1> อาหารฮาลาล ลดโลกร้อน
                         </h1>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export default function Feature() {
                                 </div>
                                 <div className={styles['section_feature']}>
 
-                                    <div style={{    display: 'flex', width: '220px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(0px, 0px)' }}>
+                                    <div style={{    display: 'flex',  height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(0px, 0px)' }}>
                                         <Image src={Icon7} alt="" />
                                         <div className={styles['text_feature']}>
                                             <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>

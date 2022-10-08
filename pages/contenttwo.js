@@ -98,16 +98,16 @@ export default function Feature() {
                                 data-aos-delay="1000"
                                 data-aos-easing="ease-in-out">
                                 <div className={styles['section_feature']}>
-                                    <div style={{     display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '8px', alignItems: 'center' }}>
+                                    <div style={{ display: 'flex' ,height: '100px', borderRadius: '10px', padding: '8px', alignItems: 'center' }}>
                                         <Image src={Icon6} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px',      transform: 'translate(0px,60px)' }}>
+                                            <span style={{ fontSize: '14px',  transform: 'translate(0px,60px)' }}>
                                                 ทูน่าหยอง Toone
                                             </span>
                                         </div>
                                     </div>
                                    
-                                    <div style={{     display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
+                                    <div style={{     display: 'flex', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
                                         <Image style={{ transform: 'translate(-5px, 0px)' }} src={Icon9} alt="" />
                                         <div className={styles['text_feature']}>
                                             <span style={{ fontSize: '14px',      transform: 'translate(0px,60px)' }}>
