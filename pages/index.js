@@ -67,10 +67,10 @@ export default function Home() {
   }, [open]);
 
   const scrollToTop = () => {
-    scroll.scrollTo(750);
+    scroll.scrollTo(690);
   };
   const scrollToTopTwo = () => {
-    scroll.scrollTo(1600);
+    scroll.scrollTo(1520);
   };
   return (
     <>

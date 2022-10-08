@@ -7,6 +7,7 @@ import Image from 'next/image';
 import styles from '../styles/feature.module.scss';
 import G1 from '../styles/g1.jpg'
 import Container from '@mui/material/Container';
+import Card from '@mui/material/Card';
 import { Grid } from '@mui/material';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
@@ -29,6 +30,8 @@ export default function Feature() {
     return (
         <div className={styles['x_feature']} id="x_feature">
             <Container>
+            <Card  style={{borderRadius:'20px',backgroundColor:'#ffffff69'}}>
+
                 <div
                     data-aos="fade-up"
                     data-aos-duration="500"
@@ -37,22 +40,22 @@ export default function Feature() {
                     data-aos-easing="ease-in-out">
 
                     <div className={styles['box-text-feature']}>
-                        <h1 style={{ color: '#fff' }}>
+                        <h1 style={{ color: '#red' }}>
                             โครงการสนับสนุนกิจกรรมลดก๊าซ </h1>
-                        <h1 style={{ color: '#fff' }}> อาหารฮาลาล ลดโลกร้อน
+                        <h1 style={{ color: '#red' }}> อาหารฮาลาล ลดโลกร้อน
                         </h1>
                     </div>
                 </div>
                 <div className={styles['box-detail-feature']}>
-                    {/* <hr
+                    <hr
                         className={styles['hr-feature']}
                         data-aos="fade-up"
                         data-aos-duration="500"
                         data-aos-once="true"
                         data-aos-delay="500"
                         data-aos-easing="ease-in-out"
-                    /> */}
-                    {/* <Grid container>
+                    />
+                    <Grid container>
                         <Grid lg={6} xs={12}>
                             <div
                                 className={styles['box-feature']}
@@ -75,13 +78,13 @@ export default function Feature() {
                                             />
                                         </Button>
                                     </Box>
-                                    <Box style={{ backgroundColor: '#744a2d', borderRadius: '10px' }}>
-                                        <p style={{ color: '#fff' }}>
+                                    <Box >
+                                        <p >
                                             โครงการสนับสนุนกิจกรรมลดก๊าซ(Low Emission Support Scheme)
                                             เรือนกระจก <br />
 
                                         </p>
-                                        <p style={{ textAlign: 'left', color: '#fff', padding: '10px' }}>
+                                        <p style={{ textAlign: 'left',  padding: '10px' }}>
                                             &emsp;
                                             โครงการ LESS มีแนวคิดในการพัฒนารูปแบบการดำเนินกิจกรรม เพื่อสร้างความตระหนักให้เกิดการลดการปล่อยก๊าซเรือนกระจก และยกย่องผู้ทำความดีโดยการมอบใบประกาศเกียรติคุณ (Letter of Recognition: LOR) เพื่อให้ผู้ดำเนินกิจกรรมลดก๊าซเรือนกระจกได้รับการยอมรับ โดยผ่านกระบวนการวิเคราะห์และประเมินทางเทคนิควิชาการ และนำมาผนวกกับแนวคิดการให้การสนับสนุน (Support) จาก “ผู้ให้” ในภาคองค์กร/ธุรกิจ ไปสู่ “ผู้รับ” ในสังคม/ชุมชน</p>
                                     </Box>
@@ -98,18 +101,18 @@ export default function Feature() {
                                 data-aos-delay="1000"
                                 data-aos-easing="ease-in-out">
                                 <div className={styles['section_feature']}>
-                                    <div style={{ backgroundColor: '#744a2d', display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '8px', alignItems: 'center' }}>
+                                    <div style={{    display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '8px', alignItems: 'center' }}>
                                         <Image src={Icon3} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px', color: '#fff', transform: 'translate(0px,60px)' }}>
+                                            <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>
                                                 กรือโป๊ะ Befish
                                             </span>
                                         </div>
                                     </div>
-                                    <div style={{ backgroundColor: '#744a2d', display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
+                                    <div style={{    display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
                                         <Image style={{ transform: 'translate(0px, -5px)' }} src={Icon4} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px', color: '#fff', transform: 'translate(0px,60px)' }}>
+                                            <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>
                                                 ลูกหยี แม่เลื่อน
                                             </span>
                                         </div>
@@ -117,18 +120,18 @@ export default function Feature() {
                                 </div>
 
                                 <div className={styles['section_feature']}>
-                                    <div style={{ backgroundColor: '#744a2d', display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '8px', alignItems: 'center' }}>
+                                    <div style={{    display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '8px', alignItems: 'center' }}>
                                         <Image src={Icon8} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px', color: '#fff', transform: 'translate(0px,60px)' }}>
+                                            <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>
                                                 แกงไตปลา Tanilicious
                                             </span>
                                         </div>
                                     </div>
-                                    <div style={{ backgroundColor: '#744a2d', display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
+                                    <div style={{    display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
                                         <Image src={Icon11} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px', color: '#fff', transform: 'translate(0px,60px)' }}>
+                                            <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>
                                                 ร้านขนมบ้านโกไข่
                                             </span>
                                         </div>
@@ -136,10 +139,10 @@ export default function Feature() {
                                 </div>
                                 <div className={styles['section_feature']}>
 
-                                    <div style={{ backgroundColor: '#744a2d', display: 'flex', width: '220px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(0px, 0px)' }}>
+                                    <div style={{    display: 'flex', width: '220px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(0px, 0px)' }}>
                                         <Image src={Icon7} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px', color: '#fff', transform: 'translate(0px,60px)' }}>
+                                            <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>
                                                 โรตีกรอบอาชีวะ ปัตตานี
                                             </span>
                                         </div>
@@ -147,7 +150,7 @@ export default function Feature() {
                                 </div>
                             </div>
                         </Grid>
-                    </Grid> */}
+                    </Grid>
                 </div>
                 <div className={styles['zone-mobile']} style={{ transform: 'translate(0px,30px)' }}>
 
@@ -213,7 +216,10 @@ export default function Feature() {
                         </li>
                     </ul>
                 </div>
+                <br/>
+                </Card>
             </Container>
         </div>
+        
     );
 }
