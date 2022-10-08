@@ -81,30 +81,29 @@ export default function Home() {
           top: 0,
           height: 80,
           width: '100%',
-         backgroundColor: '#ffffff',
-          color: 'white',
+         backgroundColor: '#018a42',
           justifyContent: ' space-between',
           display: 'flex',
           zIndex: 9999
         }}
         >             
       <div style={{display:'flex',justifyContent: 'space-around'}}>
-          <h1 style={{ color: '#018a42', float: 'right',  transform: 'translate(10px,-10px)' }}>HALAL Greenworld</h1>
-          <Image src={Ic1} alt="" />
+          <h1 style={{ color: 'white', float: 'right', fontSize:'24px', transform: 'translate(10px,10px)' }}>โครงการส่งเสริมภาพลักษณ์ของผลิต
+ภัณฑ์อาหาร HALAL</h1>
+          {/* <Image src={Ic1} alt="" />
           <Image src={Ic2} alt="" />
           <Image src={Ic3} alt="" />
-          <Image src={Ic4} alt="" />
-          <Image src={Ic5} alt="" />
+          <Image src={Ic4} alt="" /> */}
           </div>
           
          
 
-          <div style={{ transform: 'translate(-10px,10px)' }}>
+          <div style={{ transform: 'translate(-10px,20px)' }}>
             <Stack direction="row" spacing={2}>
               <div>
                 <Button
                   variant="contained"
-                  style={{ backgroundColor: 'white', color: '#11aeef', transform: 'translate(-10px,0px)' }}
+                  style={{ backgroundColor: 'white', color: '#11aeef', transform: 'translate(-10px,0px)' ,borderRadius:50,width:'100px'}}
                   onClick={scrollToTop}
                 >
                   <a style={{ fontWeight: 600 ,color:'#018a42'}}>
@@ -114,7 +113,7 @@ export default function Home() {
                 <Button
 
                   variant="contained"
-                  style={{ backgroundColor: 'white', color: '#11aeef' }}
+                  style={{ backgroundColor: 'white', color: '#11aeef' ,borderRadius:50,width:'100px'}}
                   onClick={scrollToTopTwo}
                 >
                   <a style={{ fontWeight: 600 ,color:'#018a42'}}>
@@ -126,7 +125,6 @@ export default function Home() {
             </Stack>
           </div>
         </div>
-
         <Container >
           <Head>
             <title>Greenworld</title>
@@ -139,9 +137,11 @@ export default function Home() {
           <Grid container spacing={10} >
             <Grid item xs={6} md={6} style={{ height:'605px',transform: 'translate(0px, 0px)' }} textAlign="center">
               <TextJS />
+             
             </Grid>
+         
           </Grid>
-        
+    
         </Container>
         <Box textAlign="center">
           <PageContent />

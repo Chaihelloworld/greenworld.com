@@ -16,6 +16,7 @@ import Icon5 from '../public/img/nawati.png'
 import Icon6 from '../public/img/toone.png'
 import Icon9 from '../public/img/istana.png'
 import Icon10 from '../public/img/maepent.png'
+import Ic1 from '../public/img/icons/ic1.png'
 
 export default function Feature() {
     useEffect(() => {
@@ -24,6 +25,7 @@ export default function Feature() {
     return (
         <div className={styles['x_feature']} id="x_feature">
             <Container>
+          
             <Card  style={{borderRadius:'20px',backgroundColor:'#ffffff69'}}>
 
                 <div
@@ -74,13 +76,12 @@ export default function Feature() {
                                         </Button>
                                     </Box>
                                     <Box >
-                                        <p >
+                                        <p style={{fontSize:'20px' ,fontWeight:650}}>
                                             ฉลากคาร์บอนฟุตพริ้นท์ของผลิตภัณฑ์
-                                            (Carbon Footprint of Product)
                                             <br />
-
+                                            (Carbon Footprint of Product)
                                         </p>
-                                        <p style={{ textAlign: 'left', padding: '10px' }}>
+                                        <p style={{ textAlign: 'left', padding: '10px' ,fontSize:'20px' ,fontWeight:650}}>
                                             &emsp;
                                             ประเทศไทย มีการดำเนินงานมาตั้งแต่ปี 2553 ภายใต้ความร่วมมือของ อบก. กับศูนย์เทคโนโลยีโลหะและวัสดุแห่งชาติ (เอ็มเท็ค) เพื่อส่งเสริมให้ผู้ประกอบการมีการประเมินปริมาณการปล่อยก๊าซเรือนกระจกของผลิตภัณฑ์ตลอดห่วงโซ่อุปทาน เพื่อนำไปใช้ประกอบการวางแผนการดำเนินงานเพื่อลดการปล่อยก๊าซเรือนกระจกได้ตรงจุดและมีประสิทธิภาพ รวมถึงใช้คาร์บอนฟุตพริ้นท์ของผลิตภัณฑ์เป็นเครื่องมือสร้างขีดความสามารถในการแข่งขันในการส่งออกสินค้าไปจำหน่ายออกไปยังตลาดโลก
                                         </p>
@@ -101,17 +102,17 @@ export default function Feature() {
                                     <div style={{ display: 'flex' ,height: '100px', borderRadius: '10px', padding: '8px', alignItems: 'center' }}>
                                         <Image src={Icon6} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px',  transform: 'translate(0px,60px)' }}>
+                                            <span style={{ fontSize:'18px',fontWeight:650 ,  transform: 'translate(0px,60px)' }}>
                                                 ทูน่าหยอง Toone
                                             </span>
                                         </div>
                                     </div>
                                    
-                                    <div style={{     display: 'flex', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
+                                    <div style={{  display: 'flex', height: '100px',width:'205px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
                                         <Image style={{ transform: 'translate(-5px, 0px)' }} src={Icon9} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px',      transform: 'translate(0px,60px)' }}>
-                                                ขนมโบว์ อิสตานา
+                                            <span style={{fontSize:'18px',fontWeight:650 ,transform: 'translate(0px,60px)' }}>
+                                                ขนมโบว์อิสตานา
                                             </span>
                                         </div>
                                     </div>
@@ -120,16 +121,16 @@ export default function Feature() {
                                     <div style={{     display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '8px', alignItems: 'center' }}>
                                         <Image src={Icon5} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px',      transform: 'translate(0px,60px)' }}>
+                                            <span style={{fontSize:'18px',fontWeight:650 ,  transform: 'translate(0px,60px)' }}>
                                                 กล้วยเส้นNaWaTi
                                             </span>
                                         </div>
                                     </div>
                                   
-                                    <div style={{     display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
+                                    <div style={{     display: 'flex',width:'250px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
                                         <Image src={Icon10} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px',      transform: 'translate(0px,60px)' }}>
+                                            <span style={{fontSize:'18px',fontWeight:650 , transform: 'translate(0px,60px)' }}>
                                                 กุเลาทองแม่แป้น
                                             </span>
                                         </div>

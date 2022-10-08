@@ -22,6 +22,7 @@ import Icon8 from '../public/img/tanilicious.png'
 import Icon9 from '../public/img/istana.png'
 import Icon10 from '../public/img/maepent.png'
 import Icon11 from '../public/img/gokai.png'
+import Ic1 from '../public/img/icons/ic1.png'
 
 export default function Feature() {
     useEffect(() => {
@@ -29,7 +30,9 @@ export default function Feature() {
     }, []);
     return (
         <div className={styles['x_feature']} id="x_feature">
+  
             <Container>
+
             <Card  style={{borderRadius:'20px',backgroundColor:'#ffffff69'}}>
 
                 <div
@@ -41,8 +44,7 @@ export default function Feature() {
 
                     <div className={styles['box-text-feature']}>
                         <h1>
-                            โครงการสนับสนุนกิจกรรมลดก๊าซ </h1>
-                        <h1> อาหารฮาลาล ลดโลกร้อน
+                        ผลิตภัณฑ์ ที่ทำโครงการ LESS
                         </h1>
                     </div>
                 </div>
@@ -79,12 +81,12 @@ export default function Feature() {
                                         </Button>
                                     </Box>
                                     <Box >
-                                        <p >
-                                            โครงการสนับสนุนกิจกรรมลดก๊าซ(Low Emission Support Scheme)
-                                            เรือนกระจก <br />
+                                        <p style={{ fontSize:'20px' ,fontWeight:650}} >
+                                            โครงการสนับสนุนกิจกรรมลดก๊าซเรือนกระจก <br />(Low Emission Support Scheme)
+                                            
 
                                         </p>
-                                        <p style={{ textAlign: 'left',  padding: '10px' }}>
+                                        <p style={{ textAlign: 'left',  padding: '5px',fontSize:'20px',fontWeight:650 }}>
                                             &emsp;
                                             โครงการ LESS มีแนวคิดในการพัฒนารูปแบบการดำเนินกิจกรรม เพื่อสร้างความตระหนักให้เกิดการลดการปล่อยก๊าซเรือนกระจก และยกย่องผู้ทำความดีโดยการมอบใบประกาศเกียรติคุณ (Letter of Recognition: LOR) เพื่อให้ผู้ดำเนินกิจกรรมลดก๊าซเรือนกระจกได้รับการยอมรับ โดยผ่านกระบวนการวิเคราะห์และประเมินทางเทคนิควิชาการ และนำมาผนวกกับแนวคิดการให้การสนับสนุน (Support) จาก “ผู้ให้” ในภาคองค์กร/ธุรกิจ ไปสู่ “ผู้รับ” ในสังคม/ชุมชน</p>
                                     </Box>
@@ -104,7 +106,7 @@ export default function Feature() {
                                     <div style={{    display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '8px', alignItems: 'center' }}>
                                         <Image src={Icon3} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>
+                                            <span style={{    transform: 'translate(0px,60px)',fontSize:'16px',fontWeight:650 }}>
                                                 กรือโป๊ะ Befish
                                             </span>
                                         </div>
@@ -112,7 +114,7 @@ export default function Feature() {
                                     <div style={{    display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
                                         <Image style={{ transform: 'translate(0px, -5px)' }} src={Icon4} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>
+                                            <span style={{ fontSize:'18px',fontWeight:650 ,  transform: 'translate(0px,60px)' }}>
                                                 ลูกหยี แม่เลื่อน
                                             </span>
                                         </div>
@@ -123,7 +125,7 @@ export default function Feature() {
                                     <div style={{    display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '8px', alignItems: 'center' }}>
                                         <Image src={Icon8} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>
+                                            <span style={{ fontSize:'18px',fontWeight:650 , transform: 'translate(0px,60px)' }}>
                                                 แกงไตปลา Tanilicious
                                             </span>
                                         </div>
@@ -131,8 +133,8 @@ export default function Feature() {
                                     <div style={{    display: 'flex', width: '300px', height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(20px, 0px)' }}>
                                         <Image src={Icon11} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>
-                                                ร้านขนมบ้านโกไข่
+                                            <span style={{ fontSize:'18px',fontWeight:650 ,    transform: 'translate(0px,60px)' }}>
+                                                ร้านขนมบ้าน<br/>โกไข่
                                             </span>
                                         </div>
                                     </div>
@@ -142,7 +144,7 @@ export default function Feature() {
                                     <div style={{    display: 'flex',  height: '100px', borderRadius: '10px', padding: '5px', alignItems: 'center', transform: 'translate(0px, 0px)' }}>
                                         <Image src={Icon7} alt="" />
                                         <div className={styles['text_feature']}>
-                                            <span style={{ fontSize: '14px',   transform: 'translate(0px,60px)' }}>
+                                            <span style={{ fontSize:'18px',fontWeight:650 ,   transform: 'translate(0px,60px)' }}>
                                                 โรตีกรอบอาชีวะ ปัตตานี
                                             </span>
                                         </div>
