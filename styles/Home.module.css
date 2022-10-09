@@ -4,9 +4,9 @@
   background-image: url("./newbgtwo.png");
   /* background-color: #11aeef; */
   /* background-image: url("./bg.webp"); */
- margin-top:160px;
+  margin-top: 160px;
   height: 650px;
-/* z-index: 888; */
+  /* z-index: 888; */
   /* width: 100%; */
   /* Center and scale the image nicely */
   background-position: center;
@@ -15,6 +15,7 @@
   /* object-fit: fill; */
 
 }
+
 .adi {
   background: url(./cross_top.png);
   content: "";
@@ -27,6 +28,7 @@
   transform: translate(-180px, 0px);
 
 }
+
 .main {
   min-height: 400px;
   width: 450px;
@@ -47,9 +49,10 @@
   background-size: cover; */
 
 }
+
 .mainThree {
   /* min-height: 200px; */
-   /* padding: 0rem 0;  */
+  /* padding: 0rem 0;  */
   /* flex: 1; */
   /* display: flex;  */
   background-image: url("./newbg.jpg");
@@ -67,11 +70,12 @@
   background-size: cover; */
 
 }
+
 .mainTwo {
   min-height: 200px;
-   padding: 4rem 0; 
+  padding: 4rem 0;
   flex: 1;
-  display: flex; 
+  display: flex;
   background-image: url("./newbgtwo.jpg");
 
   /* background-color: #0a2536; */
@@ -87,14 +91,15 @@
   background-size: cover; */
 
 }
+
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 
 }
 
@@ -119,7 +124,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  transform: translate(0px,-20px);
+  transform: translate(0px, -20px);
   font-size: 1.5rem;
 }
 
@@ -186,38 +191,51 @@
   margin-left: 0.5rem;
 }
 
+
+.setDisplay {
+  display: block;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-}
-.setDisplay {
-  display: flex;
-}
-@media (max-width: 1286px) {
-  .setDisplay {
-    transform: translate(100px,0px);
+
+  .setDisplays {
+    margin-right:
+      5rem;
   }
 }
-@media (max-width: 786px) {
-  .setDisplay {
-    transform: translate(50px,0px);
-  }
+
+.setDisplays {
+  margin-right:1rem;
+  padding: 5px;
+  float: left;
+  transform: translate(0px,-15px);
+  /* background-color: red; */
 }
-@media (max-width: 447px) {
-  .setDisplay {
-    transform: translate(0px,0px);
+@media (max-width:390px) {
+  
+  .setDisplays {
+    margin-right:
+      10rem;
+      transform: translate(0px,-15px);
+
+    /* background-color: red; */
   }
 }
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }
