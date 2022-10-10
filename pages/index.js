@@ -135,6 +135,11 @@ export default function Home() {
             <meta name="อาหารฮาลานลดโลกร้อน" content="โครงการส่งเสริมภาพลักษณ์ของผลิต
 ภัณฑ์อาหาร HALAL เพื่อการ
 ท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ โดย วช/มพ.." />
+<noscript>
+โครงการส่งเสริมภาพลักษณ์ของผลิต
+ภัณฑ์อาหาร HALAL เพื่อการ
+ท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ โดย วช/มพ..
+</noscript>
             <link rel="canonical" href="/greenworld" />
             <meta name="viewport" content="width=976" />
             <link rel="icon" href="/favicon.ico" />
