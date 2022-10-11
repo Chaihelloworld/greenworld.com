@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Box from '@mui/material/Box';
@@ -76,17 +75,7 @@ export default function Home() {
   };
   return (
     <>
-             <Head>
-            <title>Halal Greenworld</title>
-              <meta property="og:title" content="อาหารฮาลานลดโลกร้อน" />
-              <meta property="og:description" content="โครงการส่งเสริมภาพลักษณ์ของผลิต
-              ภัณฑ์อาหาร HALAL เพื่อการ
-              ท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ โดย วช/มพ.." />
-            <link rel="canonical" href="/greenworld" />
-            <meta name="viewport" content="width=976" />
-            <link rel="icon" href="/favicon.png" />
-            <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" />
-          </Head>
+     
       <div className={styles.container} >
         <div style={{
           position: 'fixed',
