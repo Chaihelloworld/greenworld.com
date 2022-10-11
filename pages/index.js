@@ -84,7 +84,7 @@ export default function Home() {
               ท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ โดย วช/มพ.." />
             <link rel="canonical" href="/greenworld" />
             <meta name="viewport" content="width=976" />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.png" />
             <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" />
           </Head>
       <div className={styles.container} >
