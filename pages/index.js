@@ -76,6 +76,17 @@ export default function Home() {
   };
   return (
     <>
+             <Head>
+            <title>Halal Greenworld</title>
+              <meta property="og:title" content="อาหารฮาลานลดโลกร้อน" />
+              <meta property="og:description" content="โครงการส่งเสริมภาพลักษณ์ของผลิต
+              ภัณฑ์อาหาร HALAL เพื่อการ
+              ท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ โดย วช/มพ.." />
+            <link rel="canonical" href="/greenworld" />
+            <meta name="viewport" content="width=976" />
+            <link rel="icon" href="/favicon.ico" />
+            <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" />
+          </Head>
       <div className={styles.container} >
         <div style={{
           position: 'fixed',
@@ -130,21 +141,7 @@ export default function Home() {
         <Container  >
 
 
-          <Head>
-            <title>Halal Greenworld</title>
-            <meta name="อาหารฮาลานลดโลกร้อน" content="โครงการส่งเสริมภาพลักษณ์ของผลิต
-ภัณฑ์อาหาร HALAL เพื่อการ
-ท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ โดย วช/มพ.." />
-<noscript>
-โครงการส่งเสริมภาพลักษณ์ของผลิต
-ภัณฑ์อาหาร HALAL เพื่อการ
-ท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ โดย วช/มพ..
-</noscript>
-            <link rel="canonical" href="/greenworld" />
-            <meta name="viewport" content="width=976" />
-            <link rel="icon" href="/favicon.ico" />
-            <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" />
-          </Head>
+ 
           <Grid container spacing={10}  >
             <Grid item xs={12} md={12} style={{ height: '605px' }} textAlign="center">
               <TextJS />
