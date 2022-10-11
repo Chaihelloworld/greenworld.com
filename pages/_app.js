@@ -18,13 +18,14 @@ function MyApp({ Component, pageProps }) {
       </Head> */}
       <Helmet>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=976" />
+        <meta name="keywords" content="HALALGREENWORLD,GREENWORLD ,HALAL" />
         <title>HALAL GREENWORLD</title>
-        <meta name="description" content=" โครงการส่งเสริมภาพลักษณ์ของผลิต
-        ภัณฑ์อาหาร HALAL เพื่อการ
-        ท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ สนับสนุนโดย วช. / มพ. ... "></meta>
+        <meta name="apple-mobile-web-app-title" content="HALAL GREENWORLD" />
+        <meta name="format-detection" content="telephone=no"></meta>
+        <meta name="viewport" content="width=976" />
+        <meta name="description" content=" โครงการส่งเสริมภาพลักษณ์ของผลิต ภัณฑ์อาหาร HALAL เพื่อการท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ สนับสนุนโดย วช. / มพ.. "></meta>
         <link rel="icon" href="/favicon.png" />
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="http://halalgreenworld.com/" />
         <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" />
 
       </Helmet>
