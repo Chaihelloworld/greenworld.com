@@ -21,8 +21,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=976" />
         <title>HALAL GREENWORLD</title>
         <meta name="description" content=" โครงการส่งเสริมภาพลักษณ์ของผลิต
-ภัณฑ์อาหาร HALAL เพื่อการ
-ท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ สนับสนุนโดย วช. / มพ. ... "></meta>
+        ภัณฑ์อาหาร HALAL เพื่อการ
+        ท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ สนับสนุนโดย วช. / มพ. ... "></meta>
         <link rel="icon" href="/favicon.png" />
         <link rel="canonical" href="http://mysite.com/example" />
         <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" />
