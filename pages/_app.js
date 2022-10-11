@@ -12,8 +12,6 @@ function MyApp({ Component, pageProps }) {
     // <React.Fragment>
     <div className={styles.container}>
       <Head>
-        <meta property="og:title" content="อาหารฮาลานลดโลกร้อน" />
-        <meta property="og:description" content="โครงการส่งเสริมภาพลักษณ์ของผลิตภัณฑ์อาหาร HALAL เพื่อการท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ โดย วช/มพ.." />
         <meta name="viewport" content="width=976" />
         <link rel="icon" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" />
