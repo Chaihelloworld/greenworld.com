@@ -90,16 +90,10 @@ export default function Home() {
         }}
         >
           <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-            <h1 style={{ color: 'white', float: 'right', fontSize: '24px', transform: 'translate(10px,10px)' }}>โครงการส่งเสริมภาพลักษณ์ของผลิต
-              ภัณฑ์อาหาร HALAL</h1>
-            {/* <Image src={Ic1} alt="" />
-          <Image src={Ic2} alt="" />
-          <Image src={Ic3} alt="" />
-          <Image src={Ic4} alt="" /> */}
+            <h1 style={{ color: 'white', float: 'right', fontSize: '24px', transform: 'translate(10px,10px)' }}>
+              โครงการส่งเสริมภาพลักษณ์ของผลิตภัณฑ์อาหาร HALAL
+              </h1>
           </div>
-
-
-
           <div style={{ transform: 'translate(-10px,20px)' }}>
             <Stack direction="row" spacing={2}>
               <div>

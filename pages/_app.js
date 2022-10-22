@@ -31,9 +31,8 @@ function MyApp({ Component, pageProps }) {
 
         <Head>
                 <link rel="shortcut icon" href="/favicon.png" />
-                <title>HALAL GREENWORLD โครงการส่งเสริมภาพลักษณ์ของผลิต ภัณฑ์อาหาร HALAL</title>
-                {/* <meta name="google-site-verification" content="aZoWo6Nu6MQQid_dGsLcTqaC3AO-ejlGM-m5pDy6bZs" /> */}
-                {/* <meta name="google-site-verification" content="q7xd_0FCh7jPrqfe8ofqWTyuMCIYnhHJnRzPw1Qz72c" /> */}
+                <title>HalalGreenworld โครงการส่งเสริมภาพลักษณ์ของผลิตภัณฑ์อาหาร HALAL
+                </title>
                 <meta
                     name="description"
                     content=" โครงการส่งเสริมภาพลักษณ์ของผลิต ภัณฑ์อาหาร HALAL เพื่อการท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ สนับสนุนโดย วช. / มพ.."
@@ -42,7 +41,7 @@ function MyApp({ Component, pageProps }) {
                 <meta name="apple-mobile-web-app-title" content="HALAL GREENWORLD โครงการส่งเสริมภาพลักษณ์ของผลิต ภัณฑ์อาหาร HALAL" />
                 <meta name="format-detection" content="telephone=no"></meta>
                 <link rel="canonical" href="https://www.halalgreenworld.com/" />
-
+                <meta name="viewport" content="width=976" />
                 <meta property="og:title" content="HALAL GREENWORLD โครงการส่งเสริมภาพลักษณ์ของผลิต ภัณฑ์อาหาร HALAL" />
                 <meta property="og:description" content="โครงการส่งเสริมภาพลักษณ์ของผลิต ภัณฑ์อาหาร HALAL เพื่อการท่องเที่ยว 5 จังหวัดชายแดนภาคใต้ สนับสนุนโดย วช. / มพ.." />
                 <meta property="og:locale" content="th" />
@@ -51,7 +50,7 @@ function MyApp({ Component, pageProps }) {
                 <meta property='og:image:width' content='200' />
                 <meta property='og:image:height' content='200' />
                 <meta property="og:type" content='website' />
-
+                <meta name="google-site-verification" content="zEi3g-ybmw1t0gkY75VHpL8RKMVfuNLFQEfk33AY500" />
                 <meta name="twitter:site" content="@twitter" />
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:title" content="HALAL GREENWORLD โครงการส่งเสริมภาพลักษณ์ของผลิต ภัณฑ์อาหาร HALAL" />
