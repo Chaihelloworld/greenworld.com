@@ -28,7 +28,16 @@
   transform: translate(-180px, 0px);
 
 }
+.paddingDestop {
+  transform: translate(-10px,20px) !important;
+}
 
+@media (max-width: 761.98px) {
+    .paddingDestop {
+        padding: 0px;
+        display: none !important;;
+    }
+}
 .main {
   min-height: 400px;
   width: 450px;
